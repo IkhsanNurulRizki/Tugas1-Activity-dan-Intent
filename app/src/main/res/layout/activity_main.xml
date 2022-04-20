@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="25dp"
+    android:paddingBottom="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/tgl_pengerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="20-04-2022"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="10119097"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Ikhsan Nurul Rizki"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="IF-3"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="@font/aldrich"
+        android:text="SELAMAT DATANG"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:text="@string/buka_activity_lain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:text="@string/tutup_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

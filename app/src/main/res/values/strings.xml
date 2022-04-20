@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tugas 1 AKB IF3 10119097</string>
+    <string name="buka_activity_lain">Halaman Profil</string>
+    <string name="tutup_activity">Log Out</string>
+</resources>
